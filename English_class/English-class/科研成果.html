@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>科研成果</title>
+    <link href="科研成果.css" rel="stylesheet">
+
+
+    <script>
+        function left_one() {
+            document.getElementById("left-11").style.color = "white";
+            document.getElementById("left-22").style.color="darkgray";
+
+
+            document.getElementById("left-1").style.backgroundColor="#9933ff";    //按钮的颜色变话
+            document.getElementById("left-2").style.backgroundColor="#edeaf1";
+
+
+            document.getElementById("right-p1").style.display="block";         //文字的隐藏与显示
+            document.getElementById("right-p2").style.display="none";
+
+            var a=document.getElementById("right-a3").innerHTML="骨干教师";
+        }
+
+        function left_two(){
+            document.getElementById("left-11").style.color = "darkgray";
+            document.getElementById("left-22").style.color="white";
+
+
+            document.getElementById("left-2").style.backgroundColor="#9933ff";   //按钮的颜色变话
+            document.getElementById("left-1").style.backgroundColor="#edeaf1";
+
+
+            document.getElementById("right-p2").style.display="block";         //文字的隐藏与显示
+            document.getElementById("right-p1").style.display="none";
+
+            var a=document.getElementById("right-a3").innerHTML="博士风采";
+        }
+
+
+    </script>
+
+</head>
+<body onload="left_one()">
+<div id="menu">
+    <img src="英语基础写作.png" width="400px" height="90px" id="city-institute40">
+    <img src="半个圆.png" id="half-circle" width="400px" height="150px">
+
+
+    <div id="menu-div">
+        <ul id="menu-ul">
+            <li class="menu-li"><a href="#">网站首页&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">课程概况&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">课程负责人&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">教学团队&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">科研成果&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">教学资料&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">教学录像&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">实践教学&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="menu-li"><a href="#">教学论坛&nbsp;&nbsp;&nbsp;</a></li>
+        </ul>
+    </div>
+    <img src="gold-xian.png" id="gold-xian">
+</div>
+
+<img src="xinghai.jpg" width="1350px" height="200px">
+
+
+<div id="big-box">
+    <div id="left">
+        <span class="left-menu"><h2 style="margin-bottom: -3px">师资队伍</h2></span>
+        <HR width="170px" color="#ca35d1" size="4" >
+
+        <ul>
+            <a href="#" onclick="left_one()">
+                <li id="left-1" >
+                    <h3 id="left-11" style="margin-top:10px">骨干教师</h3>
+                </li>
+            </a>
+
+
+            <a href="#" onclick="left_two()">
+                <li id="left-2">
+                    <h3 id="left-22" style="margin-top:10px">博士风采</h3>
+                </li>
+            </a>
+
+
+
+        </ul>
+    </div>
+
+
+    <div id="right">
+        <div id="right-menu">
+            <a href="#" id="right-a1" style="display: inline-block; color: gray; font-size:13px">网站首页</a>
+            >
+            <a href="#" id="right-a2" style="display: inline-block; color: gray; font-size:13px">科研成果</a>
+            >
+            <a href="#" id="right-a3" style="display: inline-block; color: gray; font-size:13px">骨干教师</a>
+        </div>
+        <HR width="830px" color="darkgray" size="4" style="position: absolute; top: 34px; left: 10px;">
+
+
+        <div class="right-p1" id="right-p1">
+            <img src="work1.jpg" id="pic-1" height="300" width="400">
+           <h2>教师开年底总结会议</h2>
+            <span style="font-size: 10px; position: absolute; top: 65px;left: 100px;">2010-12-28 16:26</span>
+            <p id="letter-1">语文卷中还有一些紧扣当前社会热点的试题，如第18题是选词填空题，文章介绍上海世博会北京馆为观众做的一次
+                变换造型演示，要求考生从十二个词语中选择八个填空。第19题是补写句子，这篇文章介绍低碳经济的众多解释，
+                以及由此延伸出的有关低碳的一系列观点，要求考生补写最后的总括性句子。
+            </p>
+
+
+            <HR width="830px" color="#edeaf1" size="4" style="position: absolute; top: 380px;left: -20px;">
+
+            <div>
+            <img src="work2.jpg" id="pic-2" height="360" width="400">
+            <h2 style="position: absolute; left: 450px; top: 400px; width: 350px">贯彻党的十七届四中全会</h2>
+            <span style="font-size: 10px; position: absolute; top: 460px;left: 520px; width: 350px;">2010-12-29 16:14</span>
+            <p id="letter-2"> 党的十七届四中全会是在我们党团结带领全国各族人民积极应对国际国内重大挑战、推动党和国家事业
+                实现新发展的关键时刻召开的一次十分重要的会议。全会通过的《中共中央关于加强和改进新形势下党的建设若干重大问
+                题的决定》（以下简称《决定》），坚持以马克思列宁主义、毛泽东思想、邓小平理论和“三个代表”重要思想为指导，
+                深入贯彻落实科学发展观，全面贯彻党的十七大精神，以改革创新精神对加强和改进新形势下党的建设作出战略部署，
+                对于新世纪新阶段推进党的建设新的伟大工程、
+             </p>
+              <p style="width: 850px;position: absolute;left: 0px;top: 780px; letter-spacing: 1.1px;line-height: 30px;">
+
+                  发展中国特色社会主义具有重要推动作用，对于深入推进党风廉政建设
+                  和反腐败斗争具有重要指导意义。胡锦涛同志在全会上所作的重要讲话，全面总
+                  结了中央政治局一年来的工作，深刻阐述了全会召开的重要意义，对学习贯彻全会精神、做好当前党和国家工作提出明
+                  确要求，特别是对进一步加强党风廉政建设和反腐败斗争作了深刻阐述，这对于我们落实好全会的部署，全面推进当前各项
+                  工作，具有十分重要的指导作用。
+                我们要把学习贯彻党的十七届四中全会精神作为当前和今后一个时期的一项重要政治任务，切实做到领会精神实质、明确
+                任务要求、抓好贯彻落实，进一步开创党风廉政建设和反腐败工作新局面，为夺取全面建设小康社会新胜利、加快推进社
+                会主义现代化提供坚强政治保证。
+            </p>
+                </div>
+        </div>
+
+        <p id="right-p2" class="right-p2">
+            暂无更新
+        </p>
+
+
+    </div>
+
+</div>
+
+<div id="foot">
+    <span id="foot-letter">版权所有：@大连理工大学精品课网站</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("purple1.jpg") repeat-x ;
+    width: 1350px;
+
+}
+#menu{
+    width: 100%;
+    height: 150px;
+
+    position: relative;
+}
+
+#city-school{
+    position: absolute;
+    left: 105px;
+    top: 85px;
+    color: white;
+    font-size: 15px;
+
+}
+
+#English-span1{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    letter-spacing: 0.4em;
+}
+
+#English-span2{
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    left: 390px;
+    top: 70px;
+    letter-spacing: 0.3em;
+}
+
+#city-institute40{
+     position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+#menu-div{
+    width:100px;
+    height: 50px;
+
+    font-size: 18px;
+}
+
+#menu-ul{
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    color: white;
+}
+
+.menu-li{
+    float: left;
+
+    list-style-type:none;
+}
+
+a:link{
+    text-decoration:none;
+    display:block;
+    color: white;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:visited{
+    color: white;
+    /*color: p;*/
+}
+
+
+
+#gold-xian{
+    position: absolute;
+    top: 147px;
+}
+
+#background{
+    position: relative;
+    left: 180px;
+}
+
+
+#main{
+     position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+}
+
+
+#left{
+    width: 639px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    left: 180px;
+    background-color: #edeaf1;
+}
+
+#all-notice{
+    position: absolute;
+    top: 100px;
+    left:0;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-family: "微软雅黑", "宋体", "黑体", "楷体";
+}
+
+.art-date1{
+    position: absolute;
+    right: -115px;
+    top: 17px;
+    font-family: sans-serif;
+}
+.art-date2{
+    position: absolute;
+    right: -115px;
+    top:44px;
+    font-family: sans-serif;
+}
+.art-date3{
+    position: absolute;
+    right: -115px;
+    top: 69px;
+    font-family: sans-serif;
+}
+.art-date4{
+    position: absolute;
+    right: -115px;
+    top: 94px;
+    font-family: sans-serif;
+}
+.art-date5{
+    position: absolute;
+    right: -115px;
+    top: 119px;
+    font-family: sans-serif;
+}
+.art-date6{
+    position: absolute;
+    right: -115px;
+    top: 144px;
+    font-family: sans-serif;
+}
+
+#college-p{
+    font-family: "微软雅黑", "宋体", "黑体", "楷体";
+    position: absolute;
+    top: 100px;
+    left:0;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#class-p{
+    font-family: "微软雅黑", "宋体", "黑体", "楷体";
+    position: absolute;
+    top: 100px;
+    left:0;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#news-p{
+    font-family: "微软雅黑", "宋体", "黑体", "楷体";
+    position: absolute;
+    top: 100px;
+    left:0;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+#special-p{
+    font-family: "微软雅黑", "宋体", "黑体", "楷体";
+    position: absolute;
+    top: 100px;
+    left:0;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#information{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    padding: 3px 0;
+    border-bottom: 4px solid #5c307d;
+}
+
+#more{
+    position: absolute;
+    top: -20px;
+    left:580px;
+    /* border-bottom: 4px solid grey;
+    *width: 600px;
+     float: left;*/
+}
+
+#all-1{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    left:0;
+    top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+#all-2{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    left: 130px;
+    top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+#all-3{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    left: 260px;
+    top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+#all-4{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    left:390px;
+    top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+#all-5{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    left: 520px;
+    top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+#right-1{
+    width: 340px;
+    height:250px;
+    float: right;
+    position: absolute;
+    right: 170px;
+    top: 20px;
+    background-color:#edeaf1;
+    margin-bottom: 20px;
+
+}
+
+#right-2{
+    width: 340px;
+    height: 233px;
+    float: right;
+    position: absolute;
+    right: 170px;
+    top: 286px;
+    background-color:#edeaf1;
+}
+
+#friendly-a{
+    position: absolute;
+    top: -17px;
+    left: 0;
+    border-bottom: 4px solid #5c307d;
+}
+
+#more-1{
+    position: absolute;
+    top: -18px;
+    left: 290px;
+}
+
+#family-gonghui{
+    position: absolute;
+    top: -17px;
+    left: 0;
+    border-bottom: 4px solid #5c307d;
+}
+#more-2{
+    position: absolute;
+    top: -18px;
+    left: 290px;
+}
+
+#foot{
+    width: 100%;
+    height: 80px;
+    background-color: #5c307d;
+    color: white;
+    font-size: 15px;
+    position: relative;
+}
+
+#foot-letter{
+   position: absolute;
+    left: 550px;
+    top: 30px;
+}
+
+#family-gonghui-1{
+   font-size: 15px;
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    left: -10px;
+    line-height: 2em;
+    font-family: "微软雅黑","宋体", "黑体", "楷体";
+}
+

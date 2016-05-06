@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="垃圾桶使用率超过90%,请及时查看."
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        />
+
+
+    <com.clwater.znjj.MyGifView
+        android:id="@+id/gif"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回主页面"
+            android:background="@drawable/button_back_life"
+            android:id="@+id/return_main"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

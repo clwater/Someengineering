@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="暂无数据"
+        android:id="@+id/show_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:background="@drawable/ljt"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#0c0c81"
+            android:id="@+id/show"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#383838"
+        android:text="当前没有数据,请更新"
+        android:id="@+id/date"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:textSize="20sp"
+            android:hint="请输入电话号码"
+            android:orientation="horizontal"
+            android:id="@+id/phone"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:background="@drawable/button_back_life"
+            android:id="@+id/save"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_back_life"
+        android:text="更新数据"
+        android:id="@+id/get"/>
+
+</LinearLayout>
